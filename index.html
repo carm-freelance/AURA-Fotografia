@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aura Studio | Fotografía &amp; Arquitectura</title>
+<meta name="description" content="Aura Studio — estudio de fotografía y arquitectura. Composiciones monocromáticas entre la luz natural, el hormigón y el vacío.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header" id="header">
+  <div class="header__inner">
+    <a href="#inicio" class="logo">AURA<span class="logo__sub">Studio</span></a>
+
+    <nav class="nav" id="nav">
+      <a href="#inicio" class="nav__link">Inicio</a>
+      <a href="#proyectos" class="nav__link">Proyectos</a>
+      <a href="#sobre-mi" class="nav__link">Sobre mí</a>
+      <a href="#contacto" class="nav__link">Contacto</a>
+    </nav>
+
+    <div class="header__status">
+      <span class="status-dot"></span>
+      <span>Disponible 2026</span>
+    </div>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menú" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <nav class="mobile-menu__nav">
+    <a href="#inicio" class="mobile-menu__link">01. Inicio</a>
+    <a href="#proyectos" class="mobile-menu__link">02. Proyectos</a>
+    <a href="#sobre-mi" class="mobile-menu__link">03. Sobre mí</a>
+    <a href="#contacto" class="mobile-menu__link">04. Contacto</a>
+  </nav>
+  <div class="mobile-menu__footer">
+    <p class="eyebrow">Contacto directo</p>
+    <p class="mobile-menu__email">estudio@aurastudio.com</p>
+    <p class="mobile-menu__cities">Madrid · París · Tokio</p>
+  </div>
+</div>
+
+<main>
+
+  <section class="hero" id="inicio">
+    <div class="hero__grid">
+      <div class="hero__content">
+        <div class="eyebrow-tag">
+          <span class="eyebrow-line"></span>
+          <span class="eyebrow">Estudio de Fotografía &amp; Arquitectura</span>
+        </div>
+
+        <h1 class="hero__title">
+          Capturando la esencia <br class="br-desktop">
+          <em>del silencio.</em>
+        </h1>
+
+        <p class="hero__subtitle">
+          Documentamos la tensión entre la luz natural, el hormigón y el vacío.
+          Composiciones monocromáticas y volumetrías puras concebidas para perdurar.
+        </p>
+
+        <div class="hero__cta">
+          <a href="#proyectos" class="btn btn--outline">
+            <span>Explorar Portafolio</span>
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+          </a>
+          <a href="#contacto" class="link-arrow">Iniciar Colaboración →</a>
+        </div>
+      </div>
+
+      <div class="hero__image-wrap">
+        <figure class="hero__image img-zoom-wrap">
+          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=900&q=80&auto=format&fit=crop"
+               alt="Arquitectura minimalista, Casa Monolito" class="img-zoom" loading="eager">
+          <figcaption class="hero__image-caption">Obra 01 — Casa Monolito</figcaption>
+        </figure>
+        <div class="hero__accent-block" aria-hidden="true"></div>
+      </div>
+    </div>
+
+    <div class="hero__bottom">
+      <span>Edición MMXXVI</span>
+      <a href="#proyectos" class="scroll-hint">
+        <span>Desplazar hacia abajo</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <section class="gallery" id="proyectos">
+    <div class="section-header">
+      <div>
+        <span class="eyebrow eyebrow--block">01 / Archivo Seleccionado</span>
+        <h2 class="section-title">Obras &amp; Diálogos</h2>
+      </div>
+      <p class="section-desc">
+        Una selección de encargos recientes en Berlín, Copenhague y Kioto que investigan la
+        geometría lumínica, el hormigón expuesto y la presencia humana en el espacio.
+      </p>
+    </div>
+
+    <div class="gallery__grid">
+
+      <article class="project project--a fade-in">
+        <div class="project__image img-zoom-wrap ratio-4-5">
+          <img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=1000&q=80&auto=format&fit=crop"
+               alt="Interior arquitectónico minimalista con luz cenital" class="img-zoom" loading="lazy">
+          <div class="project__overlay"><span>Ver Proyecto Completo →</span></div>
+        </div>
+        <div class="project__meta">
+          <div>
+            <h3 class="project__title">Pabellón de Luz y Sombra</h3>
+            <p class="project__category">Fotografía de Arquitectura · Zúrich</p>
+          </div>
+          <span class="project__year">2024</span>
+        </div>
+      </article>
+
+      <article class="project project--b fade-in">
+        <div class="project__image img-zoom-wrap ratio-square">
+          <img src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=900&q=80&auto=format&fit=crop"
+               alt="Retrato artístico en blanco y negro" class="img-zoom" loading="lazy">
+          <div class="project__overlay"><span>Ver Serie →</span></div>
+        </div>
+        <div class="project__meta">
+          <div>
+            <h3 class="project__title">Retratos en Penumbra</h3>
+            <p class="project__category">Estudio de Retrato Editorial · Milán</p>
+          </div>
+          <span class="project__year">2024</span>
+        </div>
+      </article>
+
+      <article class="project project--c fade-in">
+        <div class="project__image img-zoom-wrap ratio-4-5">
+          <img src="https://images.unsplash.com/photo-1449844908441-8829872d2607?w=900&q=80&auto=format&fit=crop"
+               alt="Perspectiva geométrica de edificio moderno" class="img-zoom" loading="lazy">
+          <div class="project__overlay"><span>Explorar →</span></div>
+        </div>
+        <div class="project__meta">
+          <div>
+            <h3 class="project__title">Torre Prisma</h3>
+            <p class="project__category">Geometría Urbana · Tokio</p>
+          </div>
+          <span class="project__year">2023</span>
+        </div>
+      </article>
+
+      <article class="project project--d fade-in">
+        <div class="project__image img-zoom-wrap ratio-wide">
+          <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1400&q=80&auto=format&fit=crop"
+               alt="Residencia minimalista en el bosque" class="img-zoom" loading="lazy">
+          <div class="project__overlay"><span>Ver Proyecto Completo →</span></div>
+        </div>
+        <div class="project__meta">
+          <div>
+            <h3 class="project__title">Refugio Silvestre</h3>
+            <p class="project__category">Arquitectura Residencial · Oslo</p>
+          </div>
+          <span class="project__year">2023</span>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <section class="about" id="sobre-mi">
+    <div class="about__grid">
+      <div class="about__media fade-in">
+        <div class="about__image img-zoom-wrap ratio-4-5">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80&auto=format&fit=crop"
+               alt="Retrato de Mateo Silva, director de Aura Studio" class="img-zoom" loading="lazy">
+        </div>
+        <blockquote class="manifesto">
+          <p class="eyebrow">Manifiesto</p>
+          <p>"Eliminar todo lo superfluo hasta que sólo permanezca lo que tiene alma: la luz, la textura y el silencio."</p>
+        </blockquote>
+      </div>
+
+      <div class="about__content fade-in">
+        <div>
+          <span class="eyebrow eyebrow--block">02 / Trayectoria &amp; Visión</span>
+          <h2 class="about__title">Mateo Silva — Fotógrafo &amp; Explorador de la Forma</h2>
+          <div class="about__text">
+            <p>
+              Con base entre Madrid y Copenhague, dirijo <strong>Aura Studio</strong>, un laboratorio
+              visual especializado en inmortalizar espacios construidos y la poesía de los instantes
+              desapercibidos.
+            </p>
+            <p>
+              Tras más de una década colaborando con firmas de arquitectura de renombre internacional,
+              mi trabajo explora la relación orgánica entre el material inerte y la fugacidad de la luz
+              natural. Cada captura es un ejercicio de paciencia, reduccionismo y respeto absoluto por
+              la escala.
+            </p>
+          </div>
+
+          <div class="stats">
+            <div class="stat">
+              <p class="stat__number">12+</p>
+              <p class="stat__label">Años de Oficio</p>
+            </div>
+            <div class="stat">
+              <p class="stat__number">45+</p>
+              <p class="stat__label">Proyectos Editoriales</p>
+            </div>
+            <div class="stat">
+              <p class="stat__number">03</p>
+              <p class="stat__label">Premios Mies Photo</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="signature">
+          <p class="signature__name">Mateo Silva.</p>
+          <span class="eyebrow">Fundador &amp; Fotógrafo Principal</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer" id="contacto">
+  <div class="footer__grid">
+
+    <div class="footer__info">
+      <div>
+        <span class="eyebrow eyebrow--block">03 / Conversaciones</span>
+        <h2 class="footer__title">Iniciemos una <br>nueva historia.</h2>
+        <p class="footer__desc">
+          Disponible para encargos arquitectónicos, comisiones de arte contemporáneo y
+          dirección editorial en todo el mundo.
+        </p>
+
+        <div class="contact-details">
+          <div>
+            <p class="contact-details__label">Consultas Generales</p>
+            <a href="mailto:hola@aurastudio.com" class="contact-details__value">hola@aurastudio.com</a>
+          </div>
+          <div>
+            <p class="contact-details__label">Estudio &amp; Taller</p>
+            <p class="contact-details__value contact-details__value--muted">Calle de Almirante 14, 28004 Madrid, España</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="social">
+        <p class="eyebrow">Conectar en Redes</p>
+        <div class="social__links">
+          <a href="#" class="social__link">Instagram</a>
+          <a href="#" class="social__link">Behance</a>
+          <a href="#" class="social__link">LinkedIn</a>
+          <a href="#" class="social__link">Vogue Living</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__form-wrap">
+      <h3 class="form-title">Cuéntanos sobre tu espacio</h3>
+      <p class="form-subtitle">Respondemos en un plazo máximo de 24 a 48 horas hábiles.</p>
+
+      <form class="form" id="contactForm" novalidate>
+        <div class="form__field">
+          <label for="nombre">Nombre o Firma *</label>
+          <input type="text" id="nombre" name="nombre" placeholder="Ej. Estudio de Arquitectura Gómez" required>
+        </div>
+
+        <div class="form__field">
+          <label for="email">Correo Electrónico *</label>
+          <input type="email" id="email" name="email" placeholder="nombre@dominio.com" required>
+        </div>
+
+        <div class="form__field">
+          <label for="tipo">Naturaleza del Proyecto</label>
+          <select id="tipo" name="tipo">
+            <option value="fotografia-arquitectura">Documentación Arquitectónica</option>
+            <option value="diseno-editorial">Monografía Editorial / Libro</option>
+            <option value="retrato-estudio">Retrato de Autor &amp; Artistas</option>
+            <option value="otro">Colaboración Especial / Consulta</option>
+          </select>
+        </div>
+
+        <div class="form__field">
+          <label for="mensaje">Detalles del Encargo *</label>
+          <textarea id="mensaje" name="mensaje" rows="4" placeholder="Describa la ubicación, tiempos previstos y escala de la obra..." required></textarea>
+        </div>
+
+        <div class="form__consent">
+          <label class="checkbox">
+            <input type="checkbox" id="consentimiento" name="consentimiento" required>
+            <span class="checkbox__box" aria-hidden="true"></span>
+            <span class="checkbox__text">
+              He leído y acepto la <a href="politica-privacidad.html" target="_blank" rel="noopener">Política de Privacidad</a>. *
+            </span>
+          </label>
+          <p class="form__legal-note">
+            <strong>Responsable:</strong> <span class="placeholder">[Titular de Aura Studio]</span>.
+            <strong>Finalidad:</strong> gestionar tu consulta o solicitud de presupuesto.
+            <strong>Legitimación:</strong> tu consentimiento.
+            <strong>Derechos:</strong> acceso, rectificación, supresión y demás derechos indicados en la
+            <a href="politica-privacidad.html" target="_blank" rel="noopener">Política de Privacidad</a>,
+            que puedes ejercer escribiendo a <a href="mailto:hola@aurastudio.com">hola@aurastudio.com</a>.
+          </p>
+        </div>
+
+        <div class="form__submit">
+          <button type="submit" class="btn btn--solid" id="submitBtn">
+            <span id="btnText">Enviar Propuesta</span>
+            <span class="spinner" id="btnSpinner" hidden></span>
+          </button>
+          <span class="form__feedback" id="formFeedback" hidden>Mensaje enviado con éxito. Gracias.</span>
+        </div>
+      </form>
+    </div>
+
+  </div>
+
+  <div class="footer__bottom">
+    <nav class="footer__legal-links" aria-label="Enlaces legales">
+      <a href="aviso-legal.html">Aviso Legal</a>
+      <a href="politica-privacidad.html">Política de Privacidad</a>
+      <a href="politica-cookies.html">Política de Cookies</a>
+      <button type="button" id="cookieSettingsBtn" class="footer__legal-btn">Configurar Cookies</button>
+    </nav>
+    <div class="footer__copyright-row">
+      <p>© 2026 AURA STUDIO. TODOS LOS DERECHOS RESERVADOS.</p>
+      <p class="footer__signoff">Diseñado con precisión y silencio.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
